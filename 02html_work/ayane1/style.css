@@ -1,0 +1,74 @@
+* { margin: 0;	/* remove padding from all elements */
+	padding: 0;	/* remove margins around content */
+}
+
+
+html, body {
+	height: 100%;
+	font: 80% helvetica;
+	background: rgba(231, 250, 188, 0.8);
+}
+
+
+.wrapper {
+	height: 100%;
+	max-width: 1000px;
+	margin: 0 auto; 	/* center alignment with 0 border */
+	word-spacing: 0.1mm;
+	line-height: 3mm;
+}
+
+.page {
+	min-height: 100%;
+	padding-bottom: 90px;	/* set bottom margin */
+	box-sizing: border-box; /* set the width=width+margins */
+}
+
+.footer {
+	height: 90px;
+	margin-top: -90px;		/* set padding from the top of the element */
+	box-sizing: border-box;
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+.menu {
+	width: 196px;
+	/*background-color: rgba(255, 0, 0, 0.5);*/	
+	box-sizing: border-box;
+	margin: 0;
+	color: rgb(0, 0, 0);
+	margin-top: 2px;
+	display: inline-block;
+}
+
+.left-page {
+	width: 800px;
+	margin-top: 2px;
+	background-color: rgba(255, 0, 0, 0.5);
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 5px;
+	border: 1px solid rgb(0, 0, 0);
+}
+
+div h1 {
+	background-color: rgb(255, 0, 0);
+	color: #E7FABC;
+	padding: 10px 0px 0px 9px;
+	font: 200% helvetica;
+	font-weight: 800;
+}
+
+div button{
+	border: 1px solid rgb(0, 0, 0);
+	width: 196px;
+	text-align: left;
+	padding-left: 10px;
+	background-color: rgba(255, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+button:focus {
+	background-color: rgba(0, 255, 0, 0.5);
+}
